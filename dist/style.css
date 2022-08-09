@@ -458,3 +458,79 @@ hr {
         padding-bottom: 3em;
     }
 }
+
+/* Extra large devices (large laptops and desktops) */
+@media only screen and (min-width: 1681px) {
+    body {
+        max-width: 60em;
+    }
+    
+    main {
+        padding: 5.25em; 
+    }
+
+    h1 {
+        font-size: 2.55em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        text-align: right;
+    }
+
+    .section-wrapper {
+        padding: 5em 6em;
+    }
+
+    .section-wrapper p {
+        font-size: 1.35em;
+    }
+
+    /* ----- TITLE CTR MEDIA @ 1681 ----- */
+    #title-ctr {
+        padding: 4.5em;
+    }
+    
+    #title-ctr > * {
+        padding: .35em;
+    }
+
+    #title-ctr img {
+        width: 10em;
+    }
+
+    /* ----- WORK CTR MEDIA @ 1681 ----- */
+    #work-ctr #work-wrapper {
+        padding-bottom: 3.5em;
+    } 
+    
+    #work-ctr li {
+        line-height: 2.85em;
+    }
+    
+    #work-ctr li::before {
+        height: 1.75em;
+        margin-right: .85em;
+        width: 1.75em;
+    }
+
+    /* ----- CONTACT CTR MEDIA @ 1681 ----- */
+    #contact-ctr .section-wrapper {
+        padding-bottom: 4.75em;
+    }
+
+    .contact-link svg {
+        height: 1.5em;
+        transform: translateY(.35em);
+        width: 1.5em;
+    }
+    
+    .contact-link p {
+        padding: .25em .4em; 
+        padding-left: .3em;
+    }
+}
