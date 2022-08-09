@@ -268,3 +268,127 @@ hr {
     }
 }
 
+/* Small devices (phones) */
+@media only screen and (min-width: 481px) {
+    body {
+        max-width: 33em;
+    }
+    
+    main {
+        padding: 2em;  
+    }
+
+    hr {
+        border-bottom: 2px solid var(--blue-white);
+        margin-bottom: 1.25em;
+    }
+    
+    h3 {
+        color: rgba(255, 255, 255, 1);
+        font-size: 1.2em;
+        margin-bottom: 1.25em;
+    }
+
+    .section-wrapper {
+        padding: 2.5em 2em;
+        font-size: .85em;
+    }
+
+    /* ----- TITLE CTR MEDIA @ 481 ----- */
+    #title-ctr {
+        padding: 2.5em;
+    }
+
+    #title-ctr > * {
+        padding: .35em;
+    }
+
+    /* ----- WORK CTR MEDIA @ 481 ----- */
+    #work-ctr #work-wrapper {
+        padding-bottom: 1.5em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (min-width: 737px) {
+    body {
+        max-width: 35em;
+    }
+    
+    main {
+        padding: 3.15em; 
+    }
+
+    h1 {
+        font-size: 1.65em;
+    }
+
+    h2 {
+        font-size: .85em;
+    }
+
+    h3 {
+        font-size: 1em;
+        text-align: right;
+    }
+
+    hr {
+        margin: 0 2.5em;
+        border-bottom: none;
+        border-right: 1px solid var(--blue-white);
+        opacity: .3;
+    }
+
+    .section-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 3em 2.5em;
+    }
+
+    .section-wrapper p {
+        font-size: .85em;
+    }
+
+    .section-wrapper > :nth-child(1) {
+        width: 30%;
+    }
+
+    .section-wrapper > :nth-child(2) {
+        width: 0%;
+    }
+
+    .section-wrapper > :nth-child(3) {
+        width: 70%;
+    }
+
+    /* ----- TITLE CTR MEDIA @ 737 ----- */
+    #title-ctr {
+        padding: 3em;
+    }
+    
+    #title-ctr > * {
+        padding: .25em;
+        white-space: nowrap;
+    }
+
+    #title-ctr img {
+        border-radius: 100%;
+        margin-bottom: .5em;
+        width: 6em;
+    }
+
+    /* ----- WORK CTR MEDIA @ 737 ----- */
+    #work-ctr hr {
+        margin-bottom: 1em;
+    }
+
+    /* ----- CONTACT CTR MEDIA @ 737 ----- */
+    #contact-ctr .section-wrapper {
+        padding-bottom: 2.65em;
+    }
+
+    #contact-ctr hr {
+        margin-bottom: .25em;
+    }
+}
