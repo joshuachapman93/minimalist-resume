@@ -392,3 +392,69 @@ hr {
         margin-bottom: .25em;
     }
 }
+
+/* Medium devices (landscape tablets)*/
+@media only screen and (min-width: 981px) {
+    body {
+        max-width: 40em;
+    }
+    
+    main {
+        padding: 4em; 
+    }
+
+    h1 {
+        font-size: 1.85em;
+    }
+
+    h2 {
+        font-size: .95em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+        text-align: right;
+    }
+
+    .section-wrapper {
+        padding: 3.5em 2em;
+    }
+
+    .section-wrapper p {
+        font-size: 1.05em;
+    }
+
+    /* ----- TITLE CTR MEDIA @ 981 ----- */
+    #title-ctr {
+        padding: 3.35em;
+    }
+    
+    #title-ctr > * {
+        padding: .3em;
+    }
+
+    #title-ctr img {
+        width: 7.25em;
+    }
+
+    /* ----- WORK CTR MEDIA @ 981 ----- */
+    #work-ctr #work-wrapper {
+        padding-bottom: 2.35em;
+    }
+    
+    #work-ctr li {
+        line-height: .85em;
+        padding: .45em 0;
+    }
+    
+    #work-ctr li::before {
+        height: 1.5em;
+        margin-right: .65em;
+        width: 1.5em;
+    }
+
+    /* ----- CONTACT CTR MEDIA @ 981 ----- */
+    #contact-ctr .section-wrapper {
+        padding-bottom: 3em;
+    }
+}
