@@ -100,3 +100,27 @@ hr {
 .hidden-svg {
     display: none;
 }
+
+/* ---------- TITLE CTR DECLERATIONS ---------- */
+#title-ctr {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    color: black;
+    padding: 1.8em;
+    position: relative;
+    width: 100%;
+}
+
+#title-ctr > * {
+    padding: .25em;
+    white-space: nowrap;
+}
+
+#title-ctr img {
+    border-radius: 100%;
+    margin-bottom: .5em;
+    width: 7em;
+}
+
