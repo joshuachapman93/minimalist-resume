@@ -231,3 +231,40 @@ hr {
     .contact-link p {
         padding-left: .5em;
     }
+
+    /* ---------- MEDIA QUERIES ---------- */
+/* Extra small devices (phones) */
+@media only screen and (min-width: 361px) {
+    main {
+        padding: 1.25em;
+    }
+
+    .section-wrapper {
+        padding: 2.75em 2em;
+    }
+
+    /* ----- TITLE CTR MEDIA @ 361 ----- */
+    #title-ctr {
+        padding: 2.5em;
+    }
+
+    #title-ctr > * {
+        padding: .25em;
+    }
+
+    #title-ctr img {
+        margin-bottom: 0;
+    }
+
+    /* ----- WORK CTR MEDIA @ 361 ----- */
+    #work-ctr li::before {
+        height: 1.25em;
+        width: 1.25em;
+    }
+
+    /* ----- CONTACT CTR MEDIA @ 361 ----- */
+    #contact-ctr .section-wrapper {
+        padding-bottom: 2.25em;
+    }
+}
+
