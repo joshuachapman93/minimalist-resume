@@ -124,3 +124,13 @@ hr {
     width: 7em;
 }
 
+/* ---------- ABOUT CTR DECLERATIONS ---------- */
+#about-ctr {
+    background-color: var(--blue-medium);
+    width: 100%;
+}
+
+#about-ctr p {
+    line-height: 1.65em;
+}
+
